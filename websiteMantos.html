@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANTOS AHRON M.</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+    scroll-behavior: smooth;
+    }
+    </style>
+    
+    <script src="c:\Users\ahronmantos\Downloads\Background.jpg " crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Fixed Navigation Placeholder -->
+    <div class="nav-placeholder"></div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="c:\Users\ahronmantos\Downloads\WAKANDA.jpeg" alt="Logo">
+            </div>
+            <div class="name-info">
+                <h1>Hi, I'm Ahron Mantos</h1>
+                <p class="tagline">Aspiring Software Designer</p>
+                <br>
+            </div>
+            <nav class="fixed-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#blog">Blog/Article</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#social-media-links">Social Media</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" id="aboutContent">
+                    <h2>About Me</h2>
+                    <p>
+                        I am Ahron M. Mantos, from Napindan, Taguig City, is a passionate web developer with a goal to become a businessman. I specializes in Java, HTML, C+4, and CSS, and enjoys reading motivational books. My skills include being a good listener and project creation. I am driven by curiosity to learn and has a passion for HTML and CSS. I love capturing the beauty of the sky through photography and also I love playing basketball.
+                        <span id="dots">.</span><span id="more"> Professionally, I have a background in Java Background in JAVA, HTML, C++, CSS. I have a skills like to be good listener and to create a more project,
+                            I am driven by a curiosity to learn and a passion for the html and css . I love like a beatufiul sky i'm always take a picture to the sky because for me the sky is the beautiful create of our god. and believe in [Your Beliefs or Values]
+                            </span>
+                        </p>
+                        </span>
+                    </p>
+                    <button onclick="toggleReadMore()" id="readMoreBtn">Read more</button>
+                </div>
+
+                <div class="about-img"> 
+                    <img src="c:\Users\ahronmantos\Downloads\My pic.jpg" alt="User Image">
+                </div>
+            </div>
+        </div>
+    </section>
+                        <h3>Education</h3>
+                        <p>Currently taking Bachelor of Science in Information Technology, Rizal Technology University</p>
+                        
+                    </div>
+                    <div class="resume-item">
+                        <h3>Work Experience</h3>
+                        <p>As of now I don't have experience to work, I continue to learning in programming.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        function toggleReadMore() {
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("readMoreBtn");
+
+            if (moreText.style.display === "none" || moreText.style.display === "") {
+                moreText.style.display = "inline";
+                btnText.innerHTML = "Read less";
+            } else {
+                moreText.style.display = "none";
+                btnText.innerHTML = "Read more";
+            }
+        }
+    </script>
+
+</body>
+</html>
+    
+<section id="blog">
+    <div class="container">
+        <h2>My Blogs</h2> 
+        <div class="video-container">
+            <div class="video">
+                <video width="260" height="200" controls>
+                    <source src="c:\Users\ahronmantos\Downloads\church.vid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Captured this video a few to go. when our church.</p>
+            </div>
+            <div class="video">
+                <video width="260" height="200" controls>
+                    <source src="c:\Users\ahronmantos\Downloads\Timelapse.vid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>This video i ask my friend to take a vid like (timelapse) to create a more memories."</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+<section id="portfolio">
+    <div class="container">
+        <h2>Portfolio</h2> 
+        <div class="blog-list">
+            <div class="blog-post">
+                <i class="fas fa-newspaper"></i>
+                <h3>Design Trends in 2023</h3>
+                <p>Incorporating augmented reality (AR) and virtual reality (VR) elements into design for more engaging and immersive user experiencesImmersive Experience. Incorporating augmented reality (AR) and virtual reality (VR) elements into design for more engaging and immersive user experiences. VR is widely used in gaming, simulations, training, education, and virtual tours, providing users with a fully immersive and interactive experience.</p>
+            </div>
+            <div class="blog-post">
+                <i class="fas fa-pen"></i>
+                <h3>The Art of Writing Code</h3>
+                <p>Write code that is efficient in terms of time and space complexity. Consider the performance implications of your code, especially in resource-intensive applications.Be mindful of memory usage. Optimize data structures to minimize memory footprint. Use data types that require less memory if possible.Consider data compression techniques, especially when dealing with large datasets. This can significantly reduce the space required for storage or transmission..</p>
+            </div>
+            <div class="blog-post special-post">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Exploring Colors in Design</h3>
+                <p>In user interface (UI) and user experience (UX) design, color plays a crucial role in guiding users and signaling interactive elements. Use color to highlight important buttons, convey feedback, and establish a visual hierarchy.Use color to establish a clear contrast between the background and foreground elements. This helps in guiding the user's attention to the essential components on the screen.Employ a varied color palette to indicate the hierarchy of information. .</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact-content">   
+                <div class="contact-info">
+                    <h2>Contact Me</h2>
+                    <p><i class="fas fa-envelope"></i>mantosahron929@gmail,com</p>
+                    <p><i class="fas fa-phone"></i> 09561409906</p>
+                </div>
+                <div class="contact-form">
+                    <h2>Send Me a Message</h2>
+                    <form>
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" rows="6" placeholder="Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+        </div>
+    </section>
+    <section id="social-media-links">
+        <div class="container">
+            <div class="social-media-links">
+                <h2>Social Media Links</h2>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ahron.mantos.9277?mibextid=LQQJ4d"><img src="c:\Users\ahronmantos\Downloads\fb.htm" alt="Facebook Logo"></a>
+                    <a href="https://www.tiktok.com/@_ahronm?is_from_webapp=1&sender_device=pc"><img src="c:\Users\ahronmantos\Downloads\tiktok logo.htm" alt="TikTok Logo"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ... (Your remaining sections) ... -->
+</body>
+
+</html>
